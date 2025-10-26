@@ -20,7 +20,7 @@ from .models import Blog, Profile
 DEFAULT_CORS_ORIGINS = {
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://simply-yaswanth.vercel.app/"
+    "https://simply-yaswanth.vercel.app",
 }
 
 def load_cors_origins():
